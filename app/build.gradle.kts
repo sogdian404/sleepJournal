@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.sleepjournal"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -40,4 +40,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    //для bottom nav
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+    //для splash screen
+    implementation(libs.androidx.core.splashscreen)
 }
