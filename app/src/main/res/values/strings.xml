@@ -1,8 +1,38 @@
 <resources>
     <string name="app_name">Журнал сна</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Тут пока технические работы</string>
     <string name="home">Главная</string>
     <string name="stats">Статистика</string>
     <string name="settings">Настройки</string>
+    <string name="add_record">Новая запись о сне</string>
+    <string name="newRecord">Новая запись о сне</string>
+    <string name="newRecordAdd">Новая запись</string>
+    <string name="setDateTime">Выбрать дату и время</string>
+    <string name="BedTime">Время отхода ко сну</string>
+    <string name="FallAsleepMinutes">Время на засыпание (минуты)</string>
+    <string name="awakeningsCount">Количество ночных пробуждений</string>
+    <string name="sleepQuality">Качество сна</string>
+    <string name="rating1">😫</string>
+    <string name="rating2">😕</string>
+    <string name="rating3">😐</string>
+    <string name="rating4">🙂</string>
+    <string name="rating5">😌</string>
+    <string name="PreSleepNote">Заметка перед сном (необязательно)</string>
+    <string name="WakeUpTime">Время пробуждения</string>
+    <string name="saveBtnText">Сохранить запись</string>
+    <string name="avgDuration">Средняя продолжительность</string>
+    <string name="allTime">365 дней</string>
+    <string name="_30days">30 дней</string>
+    <string name="_7_days">7 дней</string>
+    <string name="sleepStats">Статистика сна</string>
+    <string name="avgSleepQuality">Среднее качество сна</string>
+
+    <!-- для правильных окончаний -->
+    <plurals name="awakenings_count">
+        <item quantity="one">%d пробуждение</item>
+        <item quantity="few">%d пробуждения</item>
+        <item quantity="many">%d пробуждений</item>
+        <item quantity="other">%d пробуждения</item>
+    </plurals>
 </resources>

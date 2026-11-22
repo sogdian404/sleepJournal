@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -7,7 +8,9 @@ android {
     compileSdk {
         version = release(37)
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.example.sleepjournal"
         minSdk = 26
@@ -45,4 +48,8 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     //для splash screen
     implementation(libs.androidx.core.splashscreen)
+    //Room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
 }

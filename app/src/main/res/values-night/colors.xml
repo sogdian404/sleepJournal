@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="strokeClr">#26808080</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="md_theme_light_primary">#5B5F97</color>
@@ -36,4 +37,6 @@
     <color name="md_theme_dark_outline">#918F9A</color>
     <color name="md_theme_dark_error">#FFB4AB</color>
     <color name="md_theme_dark_onError">#690005</color>
+    <color name="moon_violet">#A78BCE</color>
+    <color name="sun_yellow">#D6A443</color>
 </resources>

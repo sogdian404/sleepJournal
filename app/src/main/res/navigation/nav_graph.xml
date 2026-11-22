@@ -7,9 +7,13 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.sleepjournal.HomeFragment"
+        android:name="com.example.sleepjournal.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addEditFragment"
+            app:destination="@id/addEditFragment" />
+    </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.sleepjournal.SettingsFragment"
@@ -17,7 +21,12 @@
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/statsFragment"
-        android:name="com.example.sleepjournal.StatsFragment"
+        android:name="com.example.sleepjournal.stats.StatsFragment"
         android:label="fragment_stats"
         tools:layout="@layout/fragment_stats" />
+    <fragment
+        android:id="@+id/addEditFragment"
+        android:name="com.example.sleepjournal.addEdit.AddEditFragment"
+        android:label="fragment_add_edit"
+        tools:layout="@layout/fragment_add_edit" />
 </navigation>
